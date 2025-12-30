@@ -1,0 +1,15 @@
+NEXT                            LEFT LAST                               PASSED UNIT                         ACTIVATES
+Tue 2025-12-30 13:30:21 EST    49min Tue 2025-12-30 12:34:55 EST      5min ago anacron.timer                anacron.service
+Tue 2025-12-30 13:52:46 EST 1h 12min Tue 2025-12-30 12:08:52 EST     31min ago fwupd-refresh.timer          fwupd-refresh.service
+Tue 2025-12-30 15:29:25 EST 2h 48min Tue 2025-12-30 05:46:35 EST        6h ago apt-daily.timer              apt-daily.service
+Tue 2025-12-30 18:07:43 EST 5h 27min Tue 2025-12-30 06:44:11 EST  5h 56min ago motd-news.timer              motd-news.service
+Tue 2025-12-30 22:56:31 EST      10h Mon 2025-12-29 22:56:31 EST       13h ago systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Wed 2025-12-31 00:00:00 EST      11h Tue 2025-12-30 00:00:00 EST       12h ago dpkg-db-backup.timer         dpkg-db-backup.service
+Wed 2025-12-31 00:00:00 EST      11h Tue 2025-12-30 00:00:00 EST       12h ago logrotate.timer              logrotate.service
+Wed 2025-12-31 05:57:15 EST      17h Tue 2025-12-30 05:23:45 EST        7h ago plocate-updatedb.timer       plocate-updatedb.service
+Wed 2025-12-31 06:35:25 EST      17h Tue 2025-12-30 06:22:01 EST        6h ago apt-daily-upgrade.timer      apt-daily-upgrade.service
+Wed 2025-12-31 07:22:49 EST      18h Tue 2025-12-30 00:23:45 EST       12h ago man-db.timer                 man-db.service
+Sun 2026-01-04 03:10:52 EST   4 days Sun 2025-12-28 03:10:55 EST    2 days ago e2scrub_all.timer            e2scrub_all.service
+Mon 2026-01-05 00:07:43 EST   5 days Mon 2025-12-29 00:26:45 EST 1 day 12h ago fstrim.timer                 fstrim.service
+
+12 timers listed.
