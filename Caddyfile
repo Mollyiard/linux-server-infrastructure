@@ -1,0 +1,28 @@
+# Nextcloud (control node)
+idoscloud.duckdns.org {
+    reverse_proxy localhost:8080
+}
+
+# Dashy (control node + password)
+idosdash.duckdns.org {
+    reverse_proxy localhost:8085
+
+    basic_auth {
+        ido $2a$14$BaElfaHWgmXyqZRoxfrtfOY1bOUKKg8/Ml8TC.tPkZaO4c5JSwLCm
+    }
+}
+
+# Portainer (control node)
+idosport.duckdns.org {
+    reverse_proxy localhost:9000
+}
+
+# Guacamole (control node)
+idosremote.duckdns.org {
+    reverse_proxy localhost:8083
+}
+
+# Jellyfin (media node)
+idosmedia.duckdns.org {
+    reverse_proxy 10.0.0.204:8096
+}

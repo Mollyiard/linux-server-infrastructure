@@ -1,0 +1,5 @@
+NAME                STATUS              CONFIG FILES
+adguard             running(1)          /home/ido/docker/adguard/docker-compose.yml
+guacamole           running(3)          /home/ido/guacamole/docker-compose.yml
+uptime-kuma         running(1)          /home/ido/docker/uptime-kuma/docker-compose.yml
+wireguard           running(1)          /home/ido/docker/wireguard/docker-compose.yml
