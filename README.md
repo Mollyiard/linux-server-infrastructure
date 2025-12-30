@@ -61,9 +61,4 @@ Remote graphical access to server-hosted environments, supporting administration
 
 ---
 
-### System Architecture Overview
-![System Architecture](screenshots/linux/architecture.md)
-
-High-level architecture diagram illustrating traffic flow from public DNS through the reverse proxy into internal Docker services.
-
 
