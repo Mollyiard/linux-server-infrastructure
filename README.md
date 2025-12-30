@@ -23,4 +23,47 @@ The goal of this setup was to simulate and operate a **real production environme
 - DuckDNS for dynamic DNS updates
 - Cron jobs and systemd timers for automation
 
-**High-level flow:**
+## Screenshots
+
+### Netdata – Real-Time System Monitoring
+![Netdata Monitoring](screenshots/netdata.png)
+
+Live performance monitoring showing CPU, memory, disk, and network usage.  
+Used to observe system health and diagnose issues in real time.
+
+---
+
+### Nextcloud – Self-Hosted Cloud Services
+![Nextcloud Dashboard](screenshots/nextcloud.png)
+
+Self-hosted cloud platform running behind the reverse proxy, demonstrating secure service deployment and internal routing.
+
+---
+
+### Portainer – Container Management
+![Portainer Dashboard](screenshots/portainer.png)
+
+Docker management interface used to monitor, start, stop, and inspect running containers across the server.
+
+---
+
+### Secure Access – Authentication Screen
+![Authentication Screen](screenshots/passwordscreen.png)
+
+Example of authentication protection in front of internal services, ensuring restricted access to administrative interfaces.
+
+---
+
+### Remote Access – VNC Connection
+![VNC Connection](screenshots/VNC-connection.png)
+
+Remote graphical access to server-hosted environments, supporting administration and maintenance tasks beyond SSH.
+
+---
+
+### System Architecture Overview
+![System Architecture](screenshots/linux/architecture.md)
+
+High-level architecture diagram illustrating traffic flow from public DNS through the reverse proxy into internal Docker services.
+
+
