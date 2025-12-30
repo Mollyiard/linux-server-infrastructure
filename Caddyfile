@@ -8,7 +8,7 @@ idosdash.duckdns.org {
     reverse_proxy localhost:8085
 
     basic_auth {
-        ido $2a$14$BaElfaHWgmXyqZRoxfrtfOY1bOUKKg8/Ml8TC.tPkZaO4c5JSwLCm
+        ido THERE IS A HASHKEY HERE BUT I DONT WANT U TO HAVE MY PASSWORD SORRY
     }
 }
 
